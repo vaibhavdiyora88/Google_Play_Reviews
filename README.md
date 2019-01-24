@@ -1,5 +1,5 @@
 
-# Sentiment Analysis of Google Play Store App Store reviews
+# Sentiment Analysis of Google Play Store App Store Reviews
 
 
 ## Executive Summary:
