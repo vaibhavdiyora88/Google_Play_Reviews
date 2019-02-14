@@ -1,4 +1,4 @@
-data<-read.csv("/Users/juileebhosale/Desktop/PURDUE/Web Data Analytics/Final Project/file.csv")
+data<-read.csv("/Users/vdiyora/Desktop/fall/Web Data Analytics/Final Project/file.csv")
 
 data$X<-NULL
 
@@ -40,7 +40,7 @@ data$ratings_distribution_1<-as.integer(data$ratings_distribution_1)
 #Read sentiment file generated from the sentiment analysis code
 
 #This dataset has apps and its corresponding sentiments
-d<-read.csv("/Users/juileebhosale/Desktop/PURDUE/Web Data Analytics/Final Project/Data_Apps.csv")
+d<-read.csv("/Users/vdiyora/Desktop/fall/Web Data Analytics/Final Project/Data_Apps.csv")
 
 d$X<-NULL
 data_new<-d[,c(1,19:28)]

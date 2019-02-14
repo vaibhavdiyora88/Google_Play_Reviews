@@ -1,7 +1,7 @@
 #Get Data
 
-app_reviews<-read.csv("/Users/karmapatel/Dropbox/Purdue/Fall2/Web Data Analytics/Project/final_app_reviews.csv", sep = "\t", stringsAsFactors = FALSE)
-app_details<-read.csv("/Users/karmapatel/Dropbox/Purdue/Fall2/Web Data Analytics/Project/final_app_details.csv", sep = "\t", stringsAsFactors = FALSE)
+app_reviews<-read.csv("/Users/vdiyora/Desktop/fall/Web Data Analytics/Final Project/final_app_reviews.csv", sep = "\t", stringsAsFactors = FALSE)
+app_details<-read.csv("/Users/vdiyora/Desktop/fall/Web Data Analytics/Final Project/final_app_details.csv", sep = "\t", stringsAsFactors = FALSE)
 
 joined_merge<-merge(app_details,app_reviews, by="app_id")
 
